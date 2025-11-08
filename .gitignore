@@ -915,3 +915,15 @@ config/database.yml
 *.zip
 
 # ===== END =====
+#
+# --- Project overrides ---
+!package.json
+!tsconfig.json
+!next.config.mjs
+!next-env.d.ts
+!app/
+!app/**
+!lib/
+!lib/**
+!public/
+!public/**
